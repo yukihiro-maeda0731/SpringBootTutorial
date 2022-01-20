@@ -18,4 +18,9 @@ public class StudentService {
 	public List<Student> getStudents() {
 		return studentRepository.findAll();
 	}
+
+	public void addNewStudent(Student student) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
 }
